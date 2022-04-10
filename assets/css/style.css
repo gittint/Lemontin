@@ -195,16 +195,17 @@
 }
 
 /* main menu  */
+
 .main-menu{
     padding-top: 40px;
 }
 
-.main-menu__header{
+.header-border-bottom{
     position: relative;
     padding-left:35px ;
 }
 
-.main-menu__header::after{
+.header-border-bottom::after{
     position: absolute;
     content: "";
     top: 190%;
@@ -212,7 +213,7 @@
     border-top: 3px solid #e8555c;
 }
 
-.main-menu__header--text{
+.header-border-bottom__text{
     display: block;
     color: var(--text-color);
     font-size: 30px;
@@ -291,4 +292,80 @@
 .main-menu__list-item--box.main-menu__list-item--box--active{
     visibility: visible;
     opacity: 1;
+}
+
+
+/* nhà hàng local  */
+.content-local{
+    margin-top: 200px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.content-local__list{
+    list-style: none;
+    background-color: #f2f3f5;
+    width: 40%;
+    margin-left: 35px;
+    margin-top: 40px;
+    padding: 30px 0px 30px 30px;
+    overflow: auto;
+    height: 450px;
+}
+
+.content-local__item{
+    padding-bottom: 20px;
+}
+
+.content-local__item:last-child{
+    padding-bottom: 0px;
+}
+
+.content-local__item-link{
+    display: flex;
+    width: 100%;
+}
+
+.content-local__item-box-img{
+    width: 100px;
+    height: 100px;
+}
+
+.content-local__item-img{
+    width: 100%;
+    height: 100%;
+    /* fix ảnh vuông  */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.content-local__item-content{
+    margin-left: 20px;
+}
+
+.content-local__item-content-header{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-local__item-content-text{
+    font-size: 16px;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.content-local__item-map{
+    position: absolute;
+    top: 105px;
+    left: 44%;
+    display: none;
+}
+
+/* .content-local__item-link:hover .content-local__item-map{
+    display: block;
+} */
+
+.content-local__item-map.content-local__item-map--active{
+    display: block;
 }
