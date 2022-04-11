@@ -115,7 +115,6 @@
 /* App container  */
 .app-container{
     padding-top: 90px;
-    height: 2000px;
 }
 
 .app-container__banner{
@@ -301,6 +300,7 @@ i.main-menu__list-item--icon-active{
     margin-top: 200px;
     padding-top: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .content-local__list{
@@ -376,7 +376,6 @@ i.main-menu__list-item--icon-active{
 .footer{
     height: 150px;
     background-color:#003c5b ;
-    position: relative;
     margin-top: 40px;
     color: #fff;
 }
