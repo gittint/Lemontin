@@ -358,7 +358,7 @@ i.main-menu__list-item--icon-active{
 
 .content-local__item-map{
     position: absolute;
-    top: 105px;
+    top: 20%;
     left: 44%;
     display: none;
 }
