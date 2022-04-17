@@ -6,6 +6,7 @@
     --background-color:#ffffff;
     --text-color:#333333;
     --bg-hover: #f1f1f1;
+    --red-color: #e8555c;
 }
 
 html{
@@ -65,3 +66,67 @@ html{
     }
 }
 
+/* base menu  */
+.menu-base{
+    padding: 0 20px 0 20px;
+}
+
+.menu-base--list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+.menu-base--item{
+    width: 176px;
+    height: 146px;
+    border: 1px solid #f2f1f1;
+    text-align: center;
+}
+
+.menu-base--item--active{
+    box-shadow: 0 1px 1rem rgb(0 0 0 / 20%);
+}
+
+.menu-base--item:hover{
+    box-shadow: 0 1px 1rem rgb(0 0 0 / 20%);
+}
+
+.menu-base--link{
+    display: block;
+    text-decoration: none;
+}
+
+.menu-base--icon{
+    padding-top: 16px;
+    font-size: 40px;
+    color: #1b506b;
+}
+
+.menu-base--label{
+    padding: 10px 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* base button  */
+.button-base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: #e8555c;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-base:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
