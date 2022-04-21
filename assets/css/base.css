@@ -66,17 +66,21 @@ html{
     }
 }
 
-/* base menu  */
+/* base menu nav */
 .menu-base{
     padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-base--list{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 0;
+    flex-wrap: wrap;
+    max-width: 800px;
 }
 
 .menu-base--item{
@@ -84,6 +88,8 @@ html{
     height: 146px;
     border: 1px solid #f2f1f1;
     text-align: center;
+    margin: 2px 30px;
+    background-color: var(--background-color);
 }
 
 .menu-base--item--active{
@@ -130,3 +136,78 @@ html{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* base menu buy */
+.base-menu-buy__list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.base-menu-buy__item{
+    margin: 0 auto 60px;
+    width: 1000px;
+    min-height: 300px;
+    background-color: #f1f4f5;
+    display: flex;
+}
+
+.base-menu-buy__item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.base-menu-buy__item--img-box{
+    margin: 0 60px;
+    height: 300px;
+    width: 40%;
+}
+
+.base-menu-buy__item--img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.base-menu-buy__item--content-box{
+    padding: 40px 0 20px 0;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.base-menu-buy__item--link{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.base-menu-buy__item--link:hover{
+    text-decoration: underline;
+}
+
+.base-menu-buy__item--desc{
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.base-menu-buy__item--desc-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.base-menu-buy__item--desc-item{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.base-menu-buy__item--price{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+/* base menu FAD */
