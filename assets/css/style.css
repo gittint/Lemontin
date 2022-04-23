@@ -508,3 +508,10 @@ i.main-menu__list-item--icon-active{
 }
 
 /* --------------------------------------------- MENU ---------------------------------------------------------- */
+
+.menu5-content__body-header{
+    font-size: 35px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 100px 0px 100px;
+}

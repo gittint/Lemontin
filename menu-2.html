@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- font chu-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    
+</head>
+<body>
+    <div class="app">
+        <!-- header  -->
+        <div class="header">
+            <div class="grid">
+                <!-- nav  -->
+                <div class="nav">
+                    <a href="#" class="nav__logo-link">
+                        <div class="nav__logo">
+                            <img src="./assets/img/logo-le-monde-steak-v3.png" alt="" class="nav__logo-img">
+                        </div>
+                    </a>
+                    <!-- list  -->
+                    <ul class="nav__list">
+                        <!-- nav item -->
+                        <li class="nav__list-item">
+                            <a href="index.html" class="nav__list-item--link ">Trang chủ</a>
+                        </li>
+                        
+                        <li class="nav__list-item">
+                            <a href="info-1.html" class="nav__list-item--link ">Thông tin</a>
+                            <ul class="nav__list-option">
+                                <li class="nav__list-option-item">
+                                    <a href="info-1.html" class="nav__list-option-item--link">Câu chuyện về chúng tôi</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="info-2.html" class="nav__list-option-item--link">Hệ thống nhà hàng</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="info-3.html" class="nav__list-option-item--link">Khách hàng của chúng tôi</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__list-item">
+                            <a href="menu-1.html" class="nav__list-item--link nav__list-item--link--active">Thực đơn</a>
+                            <ul class="nav__list-option">
+                                <li class="nav__list-option-item">
+                                    <a href="menu-1.html" class="nav__list-option-item--link">Bếp trưởng gợi ý</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="menu-2.html" class="nav__list-option-item--link">Đồ ăn</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="menu-3.html" class="nav__list-option-item--link">Đồ uống</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="menu-4.html" class="nav__list-option-item--link">Set combo</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="menu-5.html" class="nav__list-option-item--link">Thực đơn mới</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-item--link">Khuyến mãi</a>
+                        </li>
+
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-item--link">Blog</a>
+                            <ul class="nav__list-option">
+                                <li class="nav__list-option-item">
+                                    <a href="#" class="nav__list-option-item--link">Nguyên liệu nhà làm</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="#" class="nav__list-option-item--link">Phong cách ẩm thực</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="#" class="nav__list-option-item--link">Trải nghiệm nhà hàng</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__list-item">
+                            <a href="#" class="nav__list-item--link">
+                                <img src="./assets/img/vi.png" alt="" class="nav__list-item--link-img">
+                            </a>
+                            <ul class="nav__list-option">
+                                <li class="nav__list-option-item">
+                                    <a href="#" class="nav__list-option-item--link">Tiếng Anh</a>
+                                </li>
+                                <li class="nav__list-option-item">
+                                    <a href="#" class="nav__list-option-item--link">Tiếng Việt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-container">
+            <div class="grid">
+                <!-- banner  -->
+                <div class="app-container__banner">
+                    <img src="./assets/img/banner_menu_1_1557766876.jpg" alt="" class="app-container__banner-img">
+                </div>
+
+                <!-- base menu  -->
+                <div class="app-container__content info-app-container__content">
+                    <!-- menu dùng chung nhiều trang khác  -->
+                    <div class="menu-base">
+                        <ul class="menu-base--list">
+                            <li class="menu-base--item ">
+                                <a href="menu-1.html" class="menu-base--link">
+                                    <div class="menu-base--icon-box">
+                                        <i class="menu-base--icon fa-solid fa-heart-circle-check"></i>
+                                    </div>
+                                    <div class="menu-base--label">Bếp trưởng gợi ý</div>
+                                </a>
+                            </li>
+                            
+                            <li class="menu-base--item menu-base--item--active">
+                                <a href="menu-2.html" class="menu-base--link">
+                                    <div class="menu-base--icon-box">
+                                        <i class="menu-base--icon fa-solid fa-utensils"></i>
+                                    </div>
+                                    <div class="menu-base--label">Đồ ăn</div>
+                                </a>
+                            </li>
+
+                            <li class="menu-base--item ">
+                                <a href="menu-3.html" class="menu-base--link">
+                                    <div class="menu-base--icon-box">
+                                        <i class="menu-base--icon fa-solid fa-champagne-glasses"></i>
+                                    </div>
+                                    <div class="menu-base--label">Đồ uống</div>
+                                </a>
+                            </li>
+
+                            <li class="menu-base--item ">
+                                <a href="menu-4.html" class="menu-base--link">
+                                    <div class="menu-base--icon-box">
+                                        <i class="menu-base--icon fa-solid fa-kitchen-set"></i>
+                                    </div>
+                                    <div class="menu-base--label">Set combo</div>
+                                </a>
+                            </li>
+
+                            <li class="menu-base--item">
+                                <a href="menu-5.html" class="menu-base--link">
+                                    <div class="menu-base--icon-box">
+                                        <i class="menu-base--icon fa-solid fa-file-circle-check"></i>
+                                    </div>
+                                    <div class="menu-base--label">Thực đơn mới</div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- base sub menu -->
+                <div class="app-container__content menu-app-container__content">
+                    <div class="sub-menu-base">
+                        <ul class="sub-menu-base--list">
+                            <li class="sub-menu-base--item">Starter</li>
+                            <li class="sub-menu-base--item">Soup</li>
+                            <li class="sub-menu-base--item">Salad</li>
+                            <li class="sub-menu-base--item">Steak</li>
+                            <li class="sub-menu-base--item">Slow cooked Dishes</li>
+                            <li class="sub-menu-base--item">Home-made Pasta</li>
+                            <li class="sub-menu-base--item">Burger</li>
+                            <li class="sub-menu-base--item">Dessert</li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+
+                <!-- base menu FAD  -->
+                <div class="app-container__content menu-app-container__content">
+                    <div class="fad-menu-base">
+                        <ul class="fad-menu-base--list">
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Starter</div>
+                                    <img src="./assets/img/menu-2-1.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Đĩa khai vị kiểu Pháp</a>
+                                            <p class="fad-menu-base--content-desc">Duck Liver Parfait with Crostinis and Aubergine Chutney</p>
+                                            <p class="fad-menu-base--content-price">49.000 VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Gà Viên Chiên</a>
+                                            <p class="fad-menu-base--content-desc">Chicken Nuggets </p>
+                                            <p class="fad-menu-base--content-price">69.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Xúc Xích Phomai</a>
+                                            <p class="fad-menu-base--content-desc">Maelted Cheese Sausages</p>
+                                            <p class="fad-menu-base--content-price">69.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Thịt Nguội Cuộn Rau Rocket Và Dưa Lưới</a>
+                                            <p class="fad-menu-base--content-desc">Melon Prosciutto</p>
+                                            <p class="fad-menu-base--content-price">99.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Đĩa Thịt Nguội Tổng Hợp</a>
+                                            <p class="fad-menu-base--content-desc">Assorted Cold Cut Platter</p>
+                                            <p class="fad-menu-base--content-price">179.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Xúc Xích Nướng Kèm Khoai Tây Chiên</a>
+                                            <p class="fad-menu-base--content-desc">Grilled Sausage</p>
+                                            <p class="fad-menu-base--content-price">79.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Cá & Khoai Tây Chiên</a>
+                                            <p class="fad-menu-base--content-desc">Fish & Chips</p>
+                                            <p class="fad-menu-base--content-price">99.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Khoai Tây Chiên</a>
+                                            <p class="fad-menu-base--content-desc">French Fried</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Soup</div>
+                                    <img src="./assets/img/menu-2-2.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Salad</div>
+                                    <img src="./assets/img/menu-2-3.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Steak</div>
+                                    <img src="./assets/img/menu-2-4.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Slow cooked Dishes</div>
+                                    <img src="./assets/img/menu-2-5.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Home-made Pasta</div>
+                                    <img src="./assets/img/menu-2-6.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Burger</div>
+                                    <img src="./assets/img/menu-2-7.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="fad-menu-base--item">
+                                <div class="fad-menu-base--img-box">
+                                    <div class="fad-menu-base--img-label">Dessert</div>
+                                    <img src="./assets/img/menu-2-8.png" alt="" class="fad-menu-base--img">
+                                </div>
+
+                                <div class="fad-menu-base--content-box">
+                                    <ul class="fad-menu-base--content-list">
+                                        
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        <li class="fad-menu-base--content-item">
+                                            <a href="" class="fad-menu-base--content-header">Bánh mỳ bơ tỏi</a>
+                                            <p class="fad-menu-base--content-desc">Garlic Bread</p>
+                                            <p class="fad-menu-base--content-price">39.000VND</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>                        
+                    </div>
+                    
+                </div>
+            
+            </div>    
+
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="grid">
+                <div class="footer-content">
+                    <div class="footer-tel"><i class="fa-solid fa-phone"></i> 0123456789</div>
+                    <div class="footer-contact">
+                        <div class="footer-contact__text">Connect with us</div>
+                        <div class="footer-contact__socials">
+                            <a href="https://www.facebook.com/jimindngtint/" target="_blank" class="footer-contact__socials-icon-link">
+                                <i class="footer-contact__socials-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="footer-contact__socials-icon-link">
+                                <i class="footer-contact__socials-icon fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="" class="footer-contact__socials-icon-link">
+                                <i class="footer-contact__socials-icon fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="footer-contact__socials-icon-link">
+                                <i class="footer-contact__socials-icon fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- echo "# Second-web-Restaurant-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gittint/Second-datweb-Restaurant.git
+git push -u origin main -->
+

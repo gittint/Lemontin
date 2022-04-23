@@ -152,7 +152,7 @@ html{
 }
 
 .base-menu-buy__item:nth-child(2n){
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;   /*Đảo ngược vị trí của các phần tử ở thứ tự chẵn*/
 }
 
 .base-menu-buy__item--img-box{
@@ -210,4 +210,140 @@ html{
     padding: 5px 0;
 }
 
+/* base sub menu  */
+
+.sub-menu-base{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-menu-base--list{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.sub-menu-base--item{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    color: var(--text-color);
+    padding: 5px 10px;
+    position: relative;
+}
+
+.sub-menu-base--item::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10%;
+    height: 46%;
+    top: 24%;
+    left: 100%;
+    border-left: 2px solid var(--text-color);
+}
+
+.sub-menu-base--item:last-child.sub-menu-base--item::after{
+    display: none;
+} 
+
 /* base menu FAD */
+
+.fad-menu-base{
+    margin-bottom: 20px;
+}
+
+.fad-menu-base--list{
+    padding-left: 0;
+    list-style: none;
+}
+
+.fad-menu-base--item{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fad-menu-base--item:first-child{
+    margin-top: 0px;
+}
+
+.fad-menu-base--item:nth-child(2n){
+    flex-direction: row-reverse;   /*Đảo ngược vị trí của các phần tử ở thứ tự chẵn*/
+}
+
+.fad-menu-base--img-box{
+    text-align: center;
+    width: 35%;
+}
+
+.fad-menu-base--img-label{
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.fad-menu-base--img{
+    width: 100%;
+}
+
+.fad-menu-base--content-box{
+    width: 65%;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.fad-menu-base--item:nth-child(2n) .fad-menu-base--content-box{
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.fad-menu-base--content-list{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    overflow: auto;
+}
+
+.fad-menu-base--content-item{
+    
+}
+
+.fad-menu-base--content-header{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.fad-menu-base--content-desc{
+    color: var(--text-color);
+    font-size: 16px;
+    margin: 10px 0px 0px;
+}
+
+
+
+.fad-menu-base--content-price{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-size: 20px;
+    color: var(--text-color);
+    position: relative;
+}
+
+.fad-menu-base--content-price::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 75%;
+    top: 81%;
+    left: 0%;
+    border-top: 1px solid var(--text-color);
+}
