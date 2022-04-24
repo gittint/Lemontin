@@ -251,11 +251,14 @@ html{
 
 .fad-menu-base{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .fad-menu-base--list{
     padding-left: 0;
     list-style: none;
+    width: 85%;
 }
 
 .fad-menu-base--item{
@@ -275,7 +278,7 @@ html{
 
 .fad-menu-base--img-box{
     text-align: center;
-    width: 35%;
+    width: 40%;
 }
 
 .fad-menu-base--img-label{
@@ -290,7 +293,7 @@ html{
 }
 
 .fad-menu-base--content-box{
-    width: 65%;
+    width: 60%;
     height: 400px;
     margin-left: 80px;
 }
@@ -347,3 +350,20 @@ html{
     left: 0%;
     border-top: 1px solid var(--text-color);
 }
+
+
+.fad-menu-base--content-list::-webkit-scrollbar {
+    width: 10px;               /* Chiều rộng vùng chứa scrollbar */
+}
+.fad-menu-base--content-list::-webkit-scrollbar-track {
+    background: #fff;        /* Màu nền ngoài của thanh scrollbar */
+}
+.fad-menu-base--content-list::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* Màu của thanh cuộn (scroll thumb) */
+    border-radius: 5px;       /* Bo góc scroll thumb */
+}
+.fad-menu-base--content-box:hover .fad-menu-base--content-list::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.1); /* Hiệu ứng di chuột đổi màu*/
+}
+
+
