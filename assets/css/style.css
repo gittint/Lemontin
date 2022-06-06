@@ -4,6 +4,10 @@
 }
 
 /* header */
+a{
+    text-decoration: none;
+}
+
 .header{
     height: 90px;
     position: fixed;
@@ -118,10 +122,8 @@
 }
 
 .app-container__banner{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    margin: auto;
     position: relative;
 }
 

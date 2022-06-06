@@ -13,6 +13,7 @@ html{
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    scroll-behavior:smooth ; /*Hành vi khi cuộn trang web*/
 }
 
 .grid{
@@ -262,7 +263,7 @@ html{
 }
 
 .fad-menu-base--item{
-    margin-top: 60px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
