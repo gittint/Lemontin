@@ -47,9 +47,15 @@ console.log(menuimgs)
 
 var red_icons = document.querySelectorAll("i.main-menu__list-item--icon-active");
 console.log(red_icons)
+for (i = 0; i < red_icons.length; i++) {
+    red_icons[i].style.display = "none";  
+}
 
 var black_icons = document.querySelectorAll(".main-menu__list-item--icon");
 console.log(black_icons)
+for (i = 0; i < black_icons.length; i++) {
+    black_icons[i].style.display = "block";  
+}
 
 function hovermenuitem(n){
     var i;
