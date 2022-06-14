@@ -377,6 +377,12 @@ i.main-menu__list-item--icon-active{
 .content-local__item-content-header{
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content-local__item-content-header:hover{
+    text-decoration: underline;
 }
 
 .content-local__item-content-text{

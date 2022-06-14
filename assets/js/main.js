@@ -74,3 +74,16 @@ function hovermenuitem(n){
     }
     black_icons[n].style.display = "none";
 }
+
+
+//Xử lý map ở index 
+ var maplinks = document.querySelectorAll(".content-local__item-content-header");
+ var maps = document.querySelectorAll(".content-local__item-map");
+
+ function getmap(n){
+    var i;
+    for(i=0; i< maps.length;i++){
+        maps[i].classList.remove("content-local__item-map--active");
+    }
+    maps[n].classList.add("content-local__item-map--active");
+ }
